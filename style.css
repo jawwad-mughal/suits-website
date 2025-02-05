@@ -1,0 +1,111 @@
+.carousel-caption{
+    position: absolute !important;
+    top: 400px;
+
+}
+.carousel-inner:before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .carousel-caption {
+    bottom: 200px;
+
+  }
+  
+  
+  #navbar-color{
+    background-color: rgba(255, 248, 248, 0.603);
+  }
+  #video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+
+  }
+  .right{
+    width: 50%;
+    position: relative;
+  }
+  .image{
+    width: 540px;
+    height: 371px;
+    background-image: url('gWVFiv/img_2.jpg');
+    background-size: cover;
+    position: relative;
+  }
+  .icon1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 249, 249, 0.349);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+  }
+  .small-image{
+    position: absolute;
+    width: 285px;
+    height: 200px;
+    background-color: black;
+    bottom: -60px;
+    right: 0;
+    background-image: url('gWVFiv/img_1.jpg');
+    background-size: cover;
+    border: 10px solid rgb(250, 249, 249);
+  }
+  .left{
+    width: 50%;
+    height: 200px;
+    margin-left: 30px;
+  }
+  .section4{
+    background-image: url('gWVFiv/hero_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media (max-width:1100px) {
+    #video{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 120px;
+      margin: 0px auto;
+    }
+    .image{
+      width: 100%;
+      height: 300px;
+      background-image: url('gWVFiv/img_2.jpg');
+      background-size: cover;
+      position: relative;
+    }
+    .right{
+      width: 100%;
+      position: relative;
+    }
+    .left{
+      width: 100%;
+      height: 200px;
+      margin-left: 30px;
+    }
+    .small-image{
+      position: absolute;
+      width: 200px;
+      height: 150px;
+      background-color: black;
+      bottom: -60px;
+      right: 0;
+      background-image: url('gWVFiv/img_1.jpg');
+      background-size: cover;
+      border: 10px solid rgb(250, 249, 249);
+    }
+  }
+  
