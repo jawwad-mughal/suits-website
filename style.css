@@ -1,21 +1,22 @@
-.carousel-caption{
-    position: absolute !important;
-    top: 400px;
 
-}
 .carousel-inner:before {
     content: "";
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     left: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
   }
+  .carousel-inner{
+    position: relative;
+  }
   .carousel-caption {
-    bottom: 200px;
-
+    position: absolute;
+    top: 43%;
+    color: white;
+    z-index: 1;
   }
   
   
@@ -107,5 +108,12 @@
       background-size: cover;
       border: 10px solid rgb(250, 249, 249);
     }
+    .carousel-caption {
+      position: absolute;
+      top: 25%;
+      z-index: 1;
+  
+    }
+    
   }
   
